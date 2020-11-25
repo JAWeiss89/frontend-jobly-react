@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import JobCard from './JobCard';
-import JoblyAPI from './JoblyAPI';
-import './styles/Jobs.css';
+import JoblyAPI from '../JoblyAPI';
+import '../styles/Jobs.css';
 
 const Jobs = ( {user} ) => {
     const [isLoading, setIsLoading] = useState(true);

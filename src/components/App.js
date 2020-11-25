@@ -7,12 +7,12 @@ import Jobs from './Jobs';
 import Companies from './Companies';
 import Company from './Company';
 import Profile from './Profile';
-import JoblyAPI from './JoblyAPI';
+import JoblyAPI from '../JoblyAPI';
 import MessageBox from './MessageBox';
 
 
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
-import './styles/App.css';
+import '../styles/App.css';
 
 
 

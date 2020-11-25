@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useHistory } from 'react-router-dom';
-import './styles/Nav.css'
+import '../styles/Nav.css'
 
 const Nav = ( { user, setUser} ) => {
     const history = useHistory();

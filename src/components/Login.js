@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useHistory, Link } from 'react-router-dom';
-import JoblyAPI from './JoblyAPI';
-import './styles/Login.css';
+import JoblyAPI from '../JoblyAPI';
+import '../styles/Login.css';
 
 const Login = ( {setUser, flashMessage} ) => {
     const [usernameField, setUsernameField] = useState("");

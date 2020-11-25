@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Link, useHistory} from 'react-router-dom';
-import JoblyAPI from './JoblyAPI';
-import './styles/Signup.css';
+import JoblyAPI from '../JoblyAPI';
+import '../styles/Signup.css';
 
 const Signup = ( {flashMessage, setUser}) => {
 

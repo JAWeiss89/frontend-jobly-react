@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import JoblyAPI from './JoblyAPI';
+import JoblyAPI from '../JoblyAPI';
 import {useHistory} from 'react-router-dom';
-import './styles/Profile.css';
+import '../styles/Profile.css';
 
 const Profile = ( {user, setUser} ) => {
 

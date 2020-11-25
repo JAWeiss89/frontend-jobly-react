@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import {Redirect, useParams} from 'react-router-dom';
-import JoblyAPI from './JoblyAPI';
+import JoblyAPI from '../JoblyAPI';
 import JobCard from './JobCard';
-import './styles/Company.css';
+import '../styles/Company.css';
 
 
 

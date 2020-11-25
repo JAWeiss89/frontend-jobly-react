@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
-import JoblyAPI from './JoblyAPI';
+import JoblyAPI from '../JoblyAPI';
 import CompanyCard from './CompanyCard';
-import './styles/Companies.css';
+import '../styles/Companies.css';
 
 const Companies = () => {
     const [isLoading, setIsLoading] = useState(true);

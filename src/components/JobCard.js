@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import JoblyAPI from './JoblyAPI';
-import './styles/JobCard.css';
+import JoblyAPI from '../JoblyAPI';
+import '../styles/JobCard.css';
 
 const JobCard = ( {id, title, salary, companyHandle, user} ) => {
     const handleApply = async () => {
