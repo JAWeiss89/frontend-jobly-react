@@ -1,0 +1,12 @@
+.Signup {
+    display: flex;
+    justify-content: center;
+}
+
+.Signup-login {
+    font-size: .8em;
+}
+
+.Signup-login a {
+    text-decoration: underline;
+}

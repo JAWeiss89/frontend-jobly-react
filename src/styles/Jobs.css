@@ -1,0 +1,25 @@
+.Jobs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Jobs-page form {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    flex-direction: row;
+}
+
+.Jobs-page form input {
+    margin: 0;
+}
+
+.Jobs-page form button {
+    margin: 0;
+    height: 30px;
+    border-radius: 0;
+    background-color: rgb(88 97 240);
+}

@@ -1,0 +1,24 @@
+.CompanyCard {
+    text-align: start;
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.CompanyCard h4 {
+    padding: 5px 0 0 5px;
+    margin-bottom: 10px;
+    background-color: rgb(158, 136, 236);
+    color: white;
+    min-height: 40px;
+    border-radius: 10px 10px 0 0;
+}   
+
+.CompanyCard-description {
+    overflow-y: scroll;
+    max-height: 80px;
+    font-size: .8em;
+}

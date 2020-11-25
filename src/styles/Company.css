@@ -1,0 +1,23 @@
+.Company {
+    text-align: left;
+}
+
+.Company h2 {
+    font-size: 2em;
+}
+
+.Company-description {
+    margin-bottom: 15px;
+}
+
+.Company-jobs-header {
+    margin-top: 15px;
+}
+
+.Company-jobs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
